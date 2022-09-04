@@ -1,0 +1,40 @@
+Report
+
+1.Generating Random N Test cases
+	1. I have used $random to generate random number, but sice $random gives only 16 bit number unsigned. I have multiplied to random number to get 32 bit random number and then subtracted another 32 bit random number to get signed 32 bit random number.
+	2. Then simply using a for loop stored N random number in T.txt with format as given below.
+	
+	N
+	test11 test12
+	test21 test22
+	.
+	.
+	.
+	testN1 testN2
+
+
+2.Reducing  N testcases to K test cases with max possible branch coverage.
+	1.First taken input for cpp program , N testcase generated from generate.sh and an integer K.
+	2.Run compiled cpp program with the following flags -Wall -g -fprofile-arcs -ftest-coverage.
+	3.Stored value of n and k in out.txt for reduce.cpp (used to implement greedy algorithm for reducing testcases).
+	4.Run a loop over all the N test cases and for each test cases run gcov ,
+	 Then I parsed .gcov file to extract information of  all branches that are covered or not  in a particular testcase and stored that information in out.txt 
+	 (0 if branch is not covered / 1 if branch is covered) for reduce.cpp to work on it.
+	5.Reduce.cpp is compiled and runned from reduce.sh
+	6.Reduce.cpp take input from out.txt as stdin.
+	7.Reduce.cpp implement a greedy algo with 3 nested loop.
+		FOR i from 0 to k
+			for each testcase it will check if that testcase is not already selected,
+			and then check for every branch and find the test case covering maximum uncovered branches and then mark those branches as covered.
+		thus we get O(n*k*branches) complexity.
+	8.It then store the k test cases in a file test_k.txt by stdout.
+	9.Reduce.sh then parse this test_k.txt file and store the K testcases in a S.sh in the given format below.
+
+	K
+	test11 test12
+	test21 test22
+	.
+	.
+	.
+	testK1 testK2
+3. I have made a script check.sh which is just to show the branch coverage of both N test cases and K reduced testcases.

@@ -1,0 +1,28 @@
+    PID TTY          TIME CMD
+ 143118 pts/0    00:00:00 bash
+ 143323 pts/0    00:00:00 bash
+ 143325 pts/0    00:00:02 yes
+ 143326 pts/0    00:00:04 vul
+ 143336 pts/0    00:00:00 man
+ 143346 pts/0    00:00:00 pager
+ 143744 pts/0    00:00:00 vul
+ 143872 pts/0    00:00:00 vul
+ 153535 pts/0    00:00:00 mit
+ 154647 pts/0    00:00:00 vul
+ 155022 pts/0    00:00:00 vul
+ 155058 pts/0    00:00:00 vul
+ 155175 pts/0    00:00:00 vul
+ 155182 pts/0    00:00:00 vul
+ 155302 pts/0    00:00:00 vul
+ 155500 pts/0    00:00:00 mit
+ 155640 pts/0    00:00:00 vul
+ 155667 pts/0    00:00:00 vul
+ 155696 pts/0    00:00:00 vul
+ 158105 pts/0    00:00:00 make
+ 158111 pts/0    00:00:00 bash
+ 158124 pts/0    00:00:00 vul
+ 158125 pts/0    00:00:00 sh
+ 158126 pts/0    00:00:00 ps
+hacked again!!
+Select a question 1 or 2 
+Answer reseted

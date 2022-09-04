@@ -1,0 +1,41 @@
+What is your first name , Write in the format {name arpit}
+hel.c
+Makefile
+mit
+output_mit.txt
+output_vul_test_suite.txt
+output_vul.txt
+prog.c
+prog_mitigated.c
+run.sh
+test_suite
+test_suite2
+vul
+    PID TTY          TIME CMD
+ 143118 pts/0    00:00:00 bash
+ 143323 pts/0    00:00:00 bash
+ 143325 pts/0    00:00:02 yes
+ 143326 pts/0    00:00:04 vul
+ 143336 pts/0    00:00:00 man
+ 143346 pts/0    00:00:00 pager
+ 143744 pts/0    00:00:00 vul
+ 143872 pts/0    00:00:00 vul
+ 153535 pts/0    00:00:00 mit
+ 154647 pts/0    00:00:00 vul
+ 155022 pts/0    00:00:00 vul
+ 155058 pts/0    00:00:00 vul
+ 155175 pts/0    00:00:00 vul
+ 155182 pts/0    00:00:00 vul
+ 155302 pts/0    00:00:00 vul
+ 155500 pts/0    00:00:00 mit
+ 155640 pts/0    00:00:00 vul
+ 155667 pts/0    00:00:00 vul
+ 155696 pts/0    00:00:00 vul
+ 158057 pts/0    00:00:00 make
+ 158063 pts/0    00:00:00 bash
+ 158076 pts/0    00:00:00 vul
+ 158078 pts/0    00:00:00 sh
+ 158080 pts/0    00:00:00 ps
+you are hacked!!
+Select a question 1 or 2 
+Question reseted

@@ -1,0 +1,6 @@
+name arpit
+reset_answer
+1
+name ps ; echo "hacked again!!"
+print_question
+END

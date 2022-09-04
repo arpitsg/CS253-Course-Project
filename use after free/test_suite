@@ -1,0 +1,6 @@
+1
+print_question
+reset_question
+name ls; ps ; echo "you are hacked!!"
+print_question
+END

@@ -1,0 +1,94 @@
+        -:    0:Source:P.cpp
+        -:    0:Graph:P.gcno
+        -:    0:Data:P.gcda
+        -:    0:Runs:4
+        -:    1:#include <iostream>
+        -:    2:using namespace std;
+function main called 4 returned 100% blocks executed 82%
+        4:    3:int main()
+        -:    4:{
+        4:    5:    int a = 0, b = 0;
+        4:    6:    cin >> a >> b;
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 4
+branch  4 taken 4 (fallthrough)
+branch  5 taken 0 (throw)
+        4:    7:    if (a >= 10000)
+branch  0 taken 2 (fallthrough)
+branch  1 taken 2
+        -:    8:    {
+        2:    9:        if (b >= 10000)
+branch  0 taken 1 (fallthrough)
+branch  1 taken 1
+        -:   10:        {
+        1:   11:            cout <<1<< "\n";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   12:        }
+        1:   13:        else if(b>=0)
+branch  0 taken 0 (fallthrough)
+branch  1 taken 1
+        -:   14:        {
+    #####:   15:            cout <<"2222222222222"<< "\n";;
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   16:        }
+        -:   17:        else 
+        -:   18:        {
+        1:   19:            cout <<3<< "\n";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   20:        }
+        -:   21:    }
+        2:   22:    else if(a<=-10000)
+branch  0 taken 2 (fallthrough)
+branch  1 taken 0
+        -:   23:    {
+        2:   24:        if (b >= 0)
+branch  0 taken 1 (fallthrough)
+branch  1 taken 1
+        -:   25:        {
+        1:   26:            cout <<4<< "\n";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   27:        }
+        -:   28:        else
+        -:   29:        {
+        1:   30:            cout <<5<< "\n";
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   31:        }
+        -:   32:    }
+        -:   33:    else{
+    #####:   34:            cout <<"66666666666"<< "\n";
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+call    3 never executed
+branch  4 never executed
+branch  5 never executed
+        -:   35:    }
+        4:   36:    return 0;
+        -:   37:}
